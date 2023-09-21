@@ -87,3 +87,43 @@ body {
   font-size: 18px;
   border: none;
 }
+.contact-container {
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  text-align: center;
+  padding: 18px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container h3 {
+  font-size: 65px;
+  word-spacing: 8px;
+  padding: 5px;
+}
+.contact-container p {
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 10px;
+}
+.social-icons {
+  margin-top: 44px;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: 25px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.social-icons a:hover {
+  top: 10px;
+}
+.social-icons a i {
+  padding: 4px;
+}
