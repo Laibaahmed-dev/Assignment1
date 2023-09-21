@@ -70,24 +70,23 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 3px;
-  text-align: center;
+  text-align: space-around;
 }
 .project-container .projects-sec .project-div {
   background-color: #303841;
   color: white;
-  width: 400px;
-  height: 450px;
+  width: 430px;
+  height: 470px;
   cursor: pointer;
 }
 .project-container .projects-sec div img {
-  width: 400px;
+  width: 430px;
   height: 400px;
 }
 .project-container .projects-sec .project-div h3 {
   text-align: center;
-  padding: 6px;
-  font-size: 18px;
+  padding: 12px;
+  font-size: 22px;
   font-weight: 500;
 }
 .project-container button {
