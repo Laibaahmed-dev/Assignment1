@@ -14,6 +14,8 @@ body {
   text-align: end;
   padding: 18px 16px;
   position: fixed;
+  box-shadow: 1px 1px black;
+  z-index: 100;
 }
 .header a {
   color: white;
@@ -30,6 +32,7 @@ body {
   width: 100%;
   height: 100vh;
   background-color: #2e2e2e;
+  background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   text-align: center;
   display: flex;
   align-items: center;
@@ -71,6 +74,7 @@ body {
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: space-around;
+  margin: 0 auto;
 }
 
 .project-container .projects-sec .project-div {
@@ -78,6 +82,8 @@ body {
   color: white;
   width: 430px;
   height: 470px;
+  box-shadow: 1px 1px 0.5 grey;
+  border-radius: 4px;
   cursor: pointer;
 }
 .project-container .projects-sec div img {
