@@ -41,3 +41,24 @@ body {
   font-size: 30px;
   padding: 4px;
 }
+.project-container {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(24, 98, 171);
+  text-align: center;
+}
+.project-container .h1 {
+  color: white;
+  text-decoration: underline;
+  font-size: 22px;
+  padding: 14px;
+  padding-top: 20px;
+}
+.project-container .projects-sec {
+  background-color: aquamarine;
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  text-align: center;
+}
